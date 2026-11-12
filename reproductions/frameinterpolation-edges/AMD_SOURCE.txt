@@ -1,0 +1,12 @@
+Unchanged AMD FidelityFX SDK header subset
+Repository: https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK
+Revision: 7539ae8b6568ad29ed78a753404351daf3b5cca7 (main, checked 2026-11-12)
+Source: https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK/tree/7539ae8b6568ad29ed78a753404351daf3b5cca7
+
+Only the ten headers needed by this fixture are included under amd-sdk/.
+They retain AMD copyright and MIT licence notices. No header is patched.
+To test the proposed guard: cd amd-sdk, then git apply ../bounds-fix.patch.
+Rerun from the parent directory.
+
+Original game-field header SHA-256:
+609b6777abd07ac22a99d4e8190dbc99ed780d59697019ea73df01e0967326de

@@ -1,0 +1,12 @@
+--- a/Kits/FidelityFX/framegeneration/fsr3/include/gpu/frameinterpolation/ffx_frameinterpolation_game_motion_vector_field.h
++++ b/Kits/FidelityFX/framegeneration/fsr3/include/gpu/frameinterpolation/ffx_frameinterpolation_game_motion_vector_field.h
+@@ -34,6 +34,9 @@
+ 
+ void computeGameFieldMvs(FfxInt32x2 iPxPos)
+ {
++    if (!IsOnScreen(iPxPos, RenderSize()))
++        return;
++
+     const FfxFloat32x2 fUvInScreenSpace            = (FfxFloat32x2(iPxPos) + 0.5f) / RenderSize();
+ 
+     const FfxFloat32x2 fDistortionFieldUv          = SampleDistortionField(fUvInScreenSpace);

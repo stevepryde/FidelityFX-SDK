@@ -1,0 +1,7 @@
+Device: Apple M5
+Zero-filled padding, excluded=0: 32 primary vectors in outgoing rows700..749; expected 0; valid interior preserved
+Zero-filled padding, excluded=1: 0 primary vectors in outgoing rows700..749; expected 0; valid interior preserved
+Allocated nonzero padding, excluded=0: 96 primary vectors in outgoing rows700..749; expected 0; valid interior preserved
+Allocated nonzero padding, excluded=1: 0 primary vectors in outgoing rows700..749; expected 0; valid interior preserved
+Ground, padding excluded: maximum generated vertical half-motion 117.279 px; required at (600,700) 171.365 px; actual 99.4263 px; packed entry 0x4a7eb03e
+REPRODUCED: no available vector can represent the required outgoing motion
