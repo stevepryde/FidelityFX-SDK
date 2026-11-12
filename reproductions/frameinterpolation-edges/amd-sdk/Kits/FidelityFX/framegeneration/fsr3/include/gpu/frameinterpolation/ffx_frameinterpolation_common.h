@@ -443,4 +443,3 @@ FFX_MIN16_I2 ComputeHrPosFromLrPos(FFX_MIN16_I2 iPxLrPos)
 #endif
 
 #endif //!defined(FFX_FRAMEINTERPOLATION_COMMON_H)
-

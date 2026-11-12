@@ -44,4 +44,3 @@ void ffxOpARcpF3(FFX_PARAMETER_OUT FfxFloat32x3 d, FfxFloat32x3 a)
 {
     d = ffxReciprocal(a);
 }
-

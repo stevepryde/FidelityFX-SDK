@@ -556,4 +556,3 @@ typedef FfxUInt32x4     Prefix##_U4;
 
 #endif // #if defined(FFX_GPU)
 #endif // #ifndef FFX_COMMON_TYPES_H
-

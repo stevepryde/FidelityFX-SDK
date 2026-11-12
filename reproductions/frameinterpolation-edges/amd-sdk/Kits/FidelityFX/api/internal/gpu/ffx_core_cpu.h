@@ -336,4 +336,3 @@ FFX_STATIC FfxUInt32 ffxPackHalf2x16(FfxFloat32x2 x)
 {
     return ffxF32ToF16(x[0]) + (ffxF32ToF16(x[1]) << 16);
 }
-

@@ -121,4 +121,3 @@ void computeGameFieldMvs(FfxInt32x2 iPxPos)
 }
 
 #endif // FFX_FRAMEINTERPOLATION_GAME_MOTION_VECTOR_FIELD_H
-

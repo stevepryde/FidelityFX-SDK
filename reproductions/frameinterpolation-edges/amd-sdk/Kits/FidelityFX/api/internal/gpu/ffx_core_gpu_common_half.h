@@ -2979,4 +2979,3 @@ FfxUInt16x2 ffxRemapForWaveReductionHalf(FfxUInt32 a)
 }
 
 #endif  // FFX_HALF
-

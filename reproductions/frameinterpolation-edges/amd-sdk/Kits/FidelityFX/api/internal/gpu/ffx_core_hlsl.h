@@ -1917,4 +1917,3 @@ FfxUInt16x4 ffxWaveXorUint16x4(FfxUInt16x4 v, FfxUInt32 x)
 }
 #endif // FFX_HALF
 #endif // #if defined(FFX_WAVE)
-

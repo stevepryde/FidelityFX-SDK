@@ -121,4 +121,3 @@ void ReconstructAndDilate(FfxInt32x2 iPxLrPos)
 
 
 #endif //!defined( FFX_FRAMEINTERPOLATION_RECONSTRUCT_DILATED_VELOCITY_AND_PREVIOUS_DEPTH_H )
-

@@ -9,4 +9,4 @@ To test the proposed guard: cd amd-sdk, then git apply ../bounds-fix.patch.
 Rerun from the parent directory.
 
 Original game-field header SHA-256:
-609b6777abd07ac22a99d4e8190dbc99ed780d59697019ea73df01e0967326de
+0483ed3d215cea3238a4f2b4b320bd86f2444e389b72f8844b5d23c412592dc1
